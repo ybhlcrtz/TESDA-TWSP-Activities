@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Document</title>
+</head>
+<body class="grey">
+
+    <div class="container">
+        
+    <h1 class=" white-text">Nav Bar</h1>
+         <nav class="blue">
+           
+<br><br>
+
+
+        <h1 class=" white-text">Right Aligned Links</h1>
+    <nav>
+        <div class="blue nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sasso.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<br><br>
+
+     <h1 class=" white-text">Left Aligned Links</h1>
+<nav>
+    <div class="blue nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <br><br>
+
+  <h1 class=" white-text">Centering The Logo</h1>
+  <nav>
+    <div class="blue nav-wrapper">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+        
+  <br><br>
+
+
+  <h1 class=" white-text">Active Items</h1>
+  <nav>
+    <div class="blue nav-wrapper">
+      <a href="#!" class="brand-logo center">Logo</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li class="active"><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ <br><br>
+
+
+ <h1 class=" white-text">Extended Nav Bar With Tags</h1> 
+
+
+ <nav class="blue nav-extended">
+ <div class="blue nav-wrapper">
+   <a href="#" class="brand-logo">Logo</a>
+   <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   <ul id="nav-mobile" class="right hide-on-med-and-down">
+     <li><a href="sass.html">Sass</a></li>
+     <li><a href="badges.html">Components</a></li>
+     <li><a href="collapsible.html">JavaScript</a></li>
+   </ul>
+ </div>
+ <div class="nav-content">
+   <ul class="tabs tabs-transparent">
+     <li class="tab"><a href="#test1">Test 1</a></li>
+     <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+     <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+     <li class="tab"><a href="#test4">Test 4</a></li>
+   </ul>
+ </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+ <li><a href="sass.html">Sass</a></li>
+ <li><a href="badges.html">Components</a></li>
+ <li><a href="collapsible.html">JavaScript</a></li>
+</ul>
+
+<div id="test1" class="col s12">Test 1</div>
+<div id="test2" class="col s12">Test 2</div>
+<div id="test3" class="col s12">Test 3</div>
+<div id="test4" class="col s12">Test 4</div>
+
+<br><br>
+
+<h1 class="white-text">Fixed NavBar</h1>
+<div class="navbar-fixed">
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+
+
+
+
+
+
+
+<!-- end of container -->
+    </div>
+
+
+
+    <!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+ <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
