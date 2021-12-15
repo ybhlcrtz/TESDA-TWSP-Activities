@@ -1,0 +1,13 @@
+.main-header{
+    background:url(../img/background.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.main-header .showcase {
+    padding-top: 100px;
+  }
+
